@@ -1,0 +1,48 @@
+.pageContianer {
+  display: flex;
+  justify-content: center;
+  //margin-top: 20px;
+}
+
+.mainContainer {
+  display: flex;
+  padding: 0px;
+}
+
+.mainContainer ul {
+  display:inline-table;
+}
+
+.mainContainer li {
+  display: inline-block;
+  margin: 0px 5px;
+  border: 1px solid rgb(9, 2, 112);
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer li a {
+  padding: 3px 8px;
+}
+
+.mainContainer li:hover {
+  background-color: rgb(155, 151, 151);
+}
+
+.mainContainer li:hover a {
+  color: white !important;
+}
+
+.activeSideBarStyle {
+  background-color: rgb(0, 1, 44);
+}
+
+.activeSideBarStyle a {
+  color: white !important;
+}
