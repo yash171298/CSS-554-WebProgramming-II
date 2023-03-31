@@ -1,0 +1,23 @@
+{
+  "name": "wp2lab1",
+  "version": "1.0.0",
+  "description": "Lab 1 Assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Yash Patole 10460520",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "location": "^0.0.1",
+    "mongodb": "^4.3.1",
+    "querystring": "^0.2.1"
+  }
+}
